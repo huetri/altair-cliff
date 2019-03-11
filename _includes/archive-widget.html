@@ -1,0 +1,20 @@
+<aside class="col-lg-3 col-md-4 kad-sidebar" role=complementary itemscope
+        itemtype="http://schema.org/WPSideBar">
+    <div class=sidebar>
+        <section id=archives-2 class="widget-1 widget-first widget widget_archive">
+            <div class=widget-inner>
+                <h3>Memo</h3>
+                <ul>
+                    {% for post in site.posts %}
+                        {% assign currentdate = post.date | date: "%B %Y" %}
+                        {% if currentdate != date %}
+                            {%- comment -%} <li id="y{{currentdate}}">{{ currentdate }}</li> {%- endcomment -%}
+                            <li><a href='{{site.baseurl}}/{{ post.date | date: "%Y/%m/" }}'>{{ currentdate }}</a></li>
+                            {% assign date = currentdate %} 
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+    </div>
+</aside>

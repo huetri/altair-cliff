@@ -1,0 +1,67 @@
+---
+layout: default
+permalink: /category
+title: Perspectives
+---
+
+<div class=row>
+    <div class="main col-lg-9 col-md-8" role=main>
+        {%- for post in site.posts -%}
+            <article id="post-78" class="post-78 post type-post status-publish format-standard has-post-thumbnail hentry category-perspectives tag-global-macro pmpro-has-access" itemscope="" itemtype="http://schema.org/BlogPosting">
+                <div class="row">
+                    <div class="col-md-5 post-image-container">
+                        <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+                            <a href="{{ post.url | relative_url }}" title="{{post.title}}">
+                                <img src="{{ post.thumbnail | relative_url }}" alt="What is the key development theme of the markets for 2016?" width="365" height="365" itemprop="contentUrl" class="iconhover">
+                                <meta itemprop="url" content="{{post.thumbnail}}">
+                                <meta itemprop="width" content="365">
+                                <meta itemprop="height" content="365">
+                            </a> 
+                        </div>
+                    </div>
+                    <div class="col-md-7 post-text-container postcontent">
+                        <div class="postmeta updated color_gray">
+                            <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+                                <span class="postday">{{ post.date | date: "%d" }}</span>{{ post.date | date: "%b %Y" }} 
+                            </div>
+                    </div> 
+                    <header>
+                        <a href="{{ post.url | relative_url }}">
+                            <h2 class="entry-title" itemprop="name headline">
+                                {{ post.title }}
+                            </h2>
+                        </a>
+                        <div class="subhead">
+                            <span class="postauthortop author vcard">
+                            <i class="icon-user"></i> by  <span itemprop="author"><a href="http://www.altair-cliff.com/author/huetrigmail-com/" class="fn" rel="author">{{post.author}}</a></span> |</span>
+                            <span class="postedintop"><i class="icon-folder-open"></i> posted in: <a href="http://www.altair-cliff.com/category/?name={{ post.category }}" rel="category tag">{{post.category}}</a></span>     <span class="kad-hidepostedin">|</span>
+                            <span class="postcommentscount">
+                                <i class="icon-comments-alt"></i> 0
+                            </span>
+                        </div>    
+                        </header>
+                        <div class="entry-content" itemprop="articleBody">
+                            <p>{{ post.content | truncate: 200 }} … <a href="{{ post.url | relative_url }}">Continued</a></p>
+                        </div>
+                        <footer>
+                            <meta itemscope="" itemprop="mainEntityOfPage" 
+                                itemtype="https://schema.org/WebPage" 
+                                itemid="{{ post.url | relative_url }}">
+                            <meta itemprop="dateModified" content="{post.date}">
+                            <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+                                <meta itemprop="name" content="Altair Cliff Associates LLC">
+                            </div>
+                            <span class="posttags color_gray">
+                                <i class="icon-tag"></i>&nbsp;
+                                {%- for tag in post.tags -%}
+                                    <a href="{{site.baseurl}}/tag/{{tag | downcase  | replace: ' ', '-'}}" rel="tag">{{tag}},&nbsp;</a>
+                                {%- endfor -%}
+                            </span>
+                        </footer>
+                    </div><!-- Text size -->
+                </div><!-- row-->
+            </article>
+        {%- endfor -%}
+    </div>
+    {% include archive-widget.html %}
+</div>

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<style>
+    #pageheader {
+        display: none;
+    }
+</style>
+<div class="row single-article">
+    <div class="main col-lg-9 col-md-8" role=main>
+        <article class="post-78 post type-post status-publish format-standard has-post-thumbnail hentry category-perspectives tag-global-macro pmpro-has-access">
+            <div class="meta_post_image" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+                <meta itemprop="url" content="{{page.thumbnail}}">
+                <meta itemprop="width" content="3008">
+                <meta itemprop="height" content="2000">
+            </div>
+            <div class="postmeta updated color_gray">
+                <div class="postdate bg-lightgray headerfont" itemprop="datePublished">
+                    <span class="postday">{{page.date | date: '%d'}}</span> {{ page.date | date: '%b %Y'}} </div>
+                </div>
+                <header>
+                    <h1 class="entry-title" itemprop="name headline">{{page.title}}</h1>
+                    <div class="subhead">
+                        <span class="postauthortop author vcard">
+                            <i class="icon-user"></i> by 
+                            <span itemprop="author">
+                                <a href="http://www.altair-cliff.com/author/huetrigmail-com/" class="fn" rel="author">{{page.author}}</a>
+                            </span> |
+                        </span>
+                        <span class="postedintop"><i class="icon-folder-open"></i> posted in: <a href="http://www.altair-cliff.com/category/perspectives/" rel="category tag">{{page.category}}</a></span>
+                        <span class="kad-hidepostedin">|</span>
+                        <span class="postcommentscount"><i class="icon-comments-alt"></i> 0 </span>
+                    </div>
+                </header>
+                <div class="entry-content" 
+                    style="text-align: justify"
+                    itemprop="description articleBody">
+                    {{content}}
+                </div>
+            </div>
+        </article>
+        {% include archive-widget.html %}
+    </div>
+</div>
