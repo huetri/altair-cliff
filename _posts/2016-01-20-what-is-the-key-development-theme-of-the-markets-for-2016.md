@@ -1,12 +1,14 @@
 ---
-layout: post
-date: 20-01-2016
-permalink: what-is-the-key-development-theme-of-the-markets-for-2016
-category:  Perspectives
-author: Tri Ton
 title: What is the key development theme of the markets for 2016?
-thumbnail: /uploads/2016/01/DSC_6893.jpg
-tags: [Global Macro]
+date: 2016-01-20 00:00:00 Z
+permalink: what-is-the-key-development-theme-of-the-markets-for-2016
+categories:
+- Perspectives
+tags:
+- Global Macro
+layout: post
+author: Tri Ton
+thumbnail: "/uploads/2016/01/DSC_6893.jpg"
 ---
 
 2016 temporarily proves to be an interesting year in investment world.  After long holidays in the West, the first trading day (Jan 4th) happened to be particularly interesting.  After the event of executing Nimr, a Shitte leader in Arab Saudi, Iranian people were angry and attacked Arab Saudi’s Embassy in Tehran that invoked Arab Saudi, Bahrain, and Sudan to announce cutting diplomatic tie to Iran as a retaliation act within a currently very complex geo-political situation in Middle East.  Investors in China sold a massive amount of shares in the first trading session of the year (down 7% in Shanghai Shenzhen CSI 300 and 3.9% in Shanghai Composite) after rumors that the government would lift the ban of stock sales that originally issued to administratively prevent the index to fall last year.  European markets fell between 3-4% across major stock indices follow China and had the worst first trading day of the year in history.  US market started trading in New York as the worst in 84 years with initial drop of 2%-2.5% of S&P and DJIA pre-market.

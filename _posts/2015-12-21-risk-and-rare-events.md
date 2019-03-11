@@ -1,12 +1,17 @@
 ---
-layout: post
-date: 21-12-2015
-author: Tri Ton
-category: Perspectives
-permalink: /risk-and-rare-events
 title: Risk and Rare Events
-thumbnail: /uploads/2015/12/Capture.png
-tags: [Financial Crisis, Global Macro, Investment Philosophy, Risk Management]
+date: 2015-12-21 00:00:00 Z
+permalink: "/risk-and-rare-events"
+categories:
+- Perspectives
+tags:
+- Financial Crisis
+- Global Macro
+- Investment Philosophy
+- Risk Management
+layout: post
+author: Tri Ton
+thumbnail: "/uploads/2015/12/Capture.png"
 ---
 
 Risk does not necessarily mean it will happen.  It means it has the probability to happen as a range of outcomes.  Because among those outcomes only one will materialize, people often forget and/or underestimate what might happen.
