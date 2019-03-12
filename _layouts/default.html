@@ -53,12 +53,17 @@
     <link rel=stylesheet id=virtue_skin-css
         href={{ '/wp-content/themes/virtue/assets/css/skins/default.css' | relative_url }} type='text/css'
         media=all />
-    <link rel=stylesheet id=redux-google-fonts-virtue-css href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1496385596' type='text/css' media=all />
+    <link rel=stylesheet id=redux-google-fonts-virtue-css href='https://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1496385596' type='text/css' media=all />
     <link rel=stylesheet id=jetpack_css-css
         href={{ '/wp-content/plugins/jetpack/css/jetpack.css?ver=6.2.1' | relative_url }} type='text/css'
         media=all />
-    <script src={{ 'wp-includes/js/jquery/jquery.js?ver=1.12.4' | relative_url }}></script>
-    <script src={{ '/wp-includes/js/jquery/jquery-migrate.min.js' | relative_url }}></script>
+    
+    {%- comment -%} <script src={{ 'wp-includes/js/jquery/jquery.js?ver=1.12.4' | relative_url }}></script> {%- endcomment -%}
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    
+    {%- comment -%} <script src={{ '/wp-includes/js/jquery/jquery-migrate.min.js' | relative_url }}></script> {%- endcomment -%}
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+    
     {%- comment -%} <link rel='https://api.w.org/' href='http://www.altair-cliff.com/wp-json/' /> {%- endcomment -%}
     {%- comment -%} <link rel=EditURI type="application/rsd+xml" title=RSD href="http://www.altair-cliff.com/xmlrpc.php?rsd" /> {%- endcomment -%}
     {%- comment -%} <link rel=wlwmanifest type="application/wlwmanifest+xml" href="http://www.altair-cliff.com/wp-includes/wlwmanifest.xml" /> {%- endcomment -%}
