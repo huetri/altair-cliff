@@ -2,9 +2,9 @@
 title: Risk and Rare Events
 date: 2015-12-21 00:00:00 Z
 permalink: "/risk-and-rare-events"
-categories:
+category:
 - Perspectives
-tags:
+tag:
 - Financial Crisis
 - Global Macro
 - Investment Philosophy

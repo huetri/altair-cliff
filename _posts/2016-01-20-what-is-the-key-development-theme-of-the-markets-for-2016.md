@@ -2,9 +2,9 @@
 title: What is the key development theme of the markets for 2016?
 date: 2016-01-20 00:00:00 Z
 permalink: what-is-the-key-development-theme-of-the-markets-for-2016
-categories:
+category:
 - Perspectives
-tags:
+tag:
 - Global Macro
 layout: post
 author: Tri Ton
