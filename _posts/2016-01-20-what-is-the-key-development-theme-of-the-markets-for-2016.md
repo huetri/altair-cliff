@@ -27,6 +27,4 @@ Second, I-Don’t-Know school of thought will lead to a better risk managing pra
 
 Returning to the question: What is the key development theme of the markets for 2016?  I think there is a great answer to that question and the answer will always be right even we change 2016 to 2026 or 2036, it is: Uncertainty.  Uncertainty is the key theme of market development that I truly feel over the years since I engaged in financial markets.  It is indeed higher every year, that strengthens my belief in investing defensively and risk managing actively will generate superior results comparing to investing aggressively.  One note, investing defensively is different to defensive investing, the former is about mindset and the later is about strategy.  Of course, there will be time the investors feel strongly about a market and there will be time the investors earn the right to be aggressive even though they follow I-Don’t-Know school of thought.  Still, the investors who follow I-Don’t-Know school of thought will always be proactive in defending against risks even though they changed from defensive mode to aggressive mode – or defensively aggressive.  That, I believe, in case the markets unfold really unexpectedly they can handle the risks that threaten their survival better and, more importantly, be more calm as they have always leave a large room in their perspective to deal with those kinds of risks.
 
---
-
-This post was originally posted on huetri.com, January 20th, 2016
+January 20th, 2016
