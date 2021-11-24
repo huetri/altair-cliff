@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"custom.scss"
+	],
+	"sourcesContent": [
+		".post {\n    img {\n        max-width: 100%;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n.virtue_banner_container {\n    @media screen and (max-width: 768px) {\n        width: 100%;\n        margin: 0;\n        padding: 0;\n        height: 300px;\n        .virtue_banner, img {\n            width: 100%;\n            height: 100%;\n            object-fit: cover;\n            object-position: 70% center;\n        }\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AACI,KADC,CACD,GAAG,AAAC,CACA,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,MAAM,CACd,OAAO,CAAE,KAAK,CACjB,AAID,MAAM,8BADV,CAAA,AAAA,wBAAwB,AAAC,CAEjB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,KAAK,CAQpB,AAbD,AAMQ,wBANgB,CAMhB,cAAc,CANtB,wBAAwB,CAMA,GAAG,AAAC,CAChB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,KAAK,CACjB,eAAe,CAAE,UAAU,CAC9B,CAER"
+}

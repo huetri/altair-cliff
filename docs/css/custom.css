@@ -1,1 +1,3 @@
-.post img{max-width:100%;margin:0 auto;display:block}
+.post img{max-width:100%;margin:0 auto;display:block}@media screen and (max-width: 768px){.virtue_banner_container{width:100%;margin:0;padding:0;height:300px}.virtue_banner_container .virtue_banner,.virtue_banner_container img{width:100%;height:100%;object-fit:cover;object-position:70% center}}
+
+/*# sourceMappingURL=custom.css.map */
