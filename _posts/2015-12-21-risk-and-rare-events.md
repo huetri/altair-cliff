@@ -32,8 +32,4 @@ Now let’s return back to 2005 and think of what is the probability of an event
 
 In this era of new complex geo-political delopments in the most recent years, I remind myself as a practitioner in the financial market that not to count too high on anything and to keep my mind open to any possibility.  We don’t know what outcome will unfold among all possibilities and magnitude of bad case of scenarios are often underestimated: it can be worse than any bad experience ever perceived and worse than the worst case scenarios.  Extremely bad rare cases do come around even though the probability for such event is low.  Investors should be invest very cautiously all the time and try their best to understand what risks involved.  As the old saying goes, it’s fatal not to know what you are doing and as you don’t see the risk ahead, it does not mean there is no risk at all.
 
-Tri Ton
-
-—
-
-This post was originally posted on huetri.com, December 11th, 2015
+December 11th, 2015
